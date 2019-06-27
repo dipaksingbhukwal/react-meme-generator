@@ -1,0 +1,99 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  border: 10px !important;
+  border-radius: 50%;
+  color: whitesmoke;
+  background-color: #056305;
+}
+.header > span > img {
+  width: 20%;
+  height: 20%;
+}
+
+.header > p {
+  font-family: VT323, monospace;
+
+  font-size: 510px;
+  margin-left: 60px;
+}
+
+.meme {
+  position: relative;
+  width: 50%;
+  text-align: center;
+  color: whitesmoke;
+  margin: auto;
+  background-color: #659465 !important;
+}
+
+.meme > img {
+  width: 100%;
+  height: 50%;
+  padding: 5%;
+}
+
+.meme > h2 {
+  position: absolute;
+}
+
+.top-left {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5%;
+  border: #282c34;
+  border-block-color: #056305;
+}
+
+.form-group {
+  padding-right: 5%;
+  padding-left: 5%;
+  margin-bottom: 5%;
+}

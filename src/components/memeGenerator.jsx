@@ -4,8 +4,8 @@ class MemeGenerator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      topText: "",
-      bottomText: "",
+      topText: "Sultan khaan ko gaadh diye thee!!!",
+      bottomText: "Ab to sach bol de bhosadike.....",
       randomImage: "https://i.imgflip.com/9ehk.jpg",
       allMemeImgs: []
     };
